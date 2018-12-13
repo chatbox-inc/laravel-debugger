@@ -16,5 +16,12 @@
     },
     "require-dev": {
         "laravel/framework": "^5.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chatbox\\Debug\\DebugToolServiceProvider"
+            ]
+        }
     }
 }

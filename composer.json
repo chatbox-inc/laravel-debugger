@@ -1,0 +1,20 @@
+{
+    "name": "chatbox-inc/debug-tool",
+    "authors": [
+        {
+            "name": "t.goto",
+            "email": "t.goto@chatbox-inc.com"
+        }
+    ],
+    "require": {
+        "illuminate/mail": "^5.6"
+    },
+    "autoload":{
+        "psr-4":{
+            "Chatbox\\Debug\\":   "./src"
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "^5.7"
+    }
+}
